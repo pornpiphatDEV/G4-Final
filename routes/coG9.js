@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('Hello world');
+router.get('/', function (req, res, next) {
+  res.render('convidR9-2');
 });
 
-router.get('/home', function(req, res, next) {
+router.get('/home', function (req, res, next) {
   res.render('covidR9');
 });
 
